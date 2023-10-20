@@ -1,0 +1,7 @@
+DEVICE_IP = ""
+
+APP_API = ""
+
+WAPI_URL = ""
+WAPI_DEVICE_KEY  = ""
+WAPI_API_KEY = ""
