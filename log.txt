@@ -1,0 +1,95 @@
+20-10-2023 13:19:03	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:19:37	 Trying to connect to DEVICE IP : 192.168.0.4
+20-10-2023 13:19:37	 Connection Established to DEVICE IP : 192.168.0.4
+20-10-2023 13:19:41	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:22:21	 Trying to connect to DEVICE IP : 192.168.0.4
+20-10-2023 13:22:21	 Connection Established to DEVICE IP : 192.168.0.4
+20-10-2023 13:22:25	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:24:02	 Success send data with user id 691 to API. Response from server : success
+20-10-2023 13:24:58	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:25:57	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:26:19	 Trying to connect to DEVICE IP : 192.168.0.4
+20-10-2023 13:26:19	 Connection Established to DEVICE IP : 192.168.0.4
+20-10-2023 13:26:22	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:26:52	 Success send data with user id 718 to API. Response from server : string(25) "2023-10-20T13:26:37+07:00"
+string(11) "scan_pulang"
+success
+20-10-2023 13:26:54	 Success send data with user id 718 to API. Response from server : string(25) "2023-10-20T13:26:40+07:00"
+string(11) "scan_pulang"
+success
+20-10-2023 13:27:08	 Success send data with user id 718 to API. Response from server : string(25) "2023-10-20T13:26:53+07:00"
+string(11) "scan_pulang"
+success
+20-10-2023 13:28:03	 Success send data with user id 718 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 13:28:05	 Success send data with user id 718 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 13:28:10	 Success send data with user id 718 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 13:28:13	 Success send data with user id 718 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 13:28:15	 Success send data with user id 718 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 13:28:17	 Success send data with user id 718 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 13:28:31	 Success send data with user id 718 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 13:28:33	 Success send data with user id 718 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 13:28:50	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:33:01	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:33:56	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:33:58	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:34:49	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:34:52	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:35:02	 Success send data with user id 718 to API. Response from server : success
+20-10-2023 13:44:47	 Success send data with user id 691 to API. Response from server : success
+20-10-2023 13:45:06	 Success send data with user id 691 to API. Response from server : success
+20-10-2023 13:45:58	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 13:46:28	 Success send data with user id 718 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 13:53:33	 Success send data with user id 718 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:30:09	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:30:16	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:30:26	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:39:31	 Theres an error in registering realtime attendance event to API with user id 718. Error detail: AxiosError: Request failed with status code 404
+20-10-2023 14:39:51	 Theres an error in registering realtime attendance event to API with user id 718. Error detail: AxiosError: Request failed with status code 404
+20-10-2023 14:40:12	 Theres an error in registering realtime attendance event to API with user id 718. Error detail: AxiosError: Request failed with status code 404
+20-10-2023 14:41:16	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:41:24	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:45:10	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:45:19	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:45:21	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:45:35	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:45:51	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:47:10	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:47:24	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 14:51:54	 Success send data with user id 691 to API. Response from server : string(11) "scan_pulang"
+success
+20-10-2023 17:58:37	 Theres an error in registering realtime attendance event to API with user id 718. Error detail: Error: connect ETIMEDOUT 192.168.0.39:80
+20-10-2023 17:58:45	 Theres an error in registering realtime attendance event to API with user id 718. Error detail: Error: connect ETIMEDOUT 192.168.0.39:80
+20-10-2023 17:58:51	 Theres an error in registering realtime attendance event to API with user id 718. Error detail: Error: connect ETIMEDOUT 192.168.0.39:80
+20-10-2023 17:58:57	 Theres an error in registering realtime attendance event to API with user id 718. Error detail: Error: connect ETIMEDOUT 192.168.0.39:80
+23-10-2023 10:14:51	 Trying to connect to DEVICE IP : 192.168.0.4
+23-10-2023 10:14:51	 Connection Established to DEVICE IP : 192.168.0.4
+23-10-2023 10:14:58	 Success send data with user id 718 to API. Response from server : success
+23-10-2023 10:15:46	 Success send data with user id 718 to API. Response from server : success
+23-10-2023 10:53:18	 Theres an error in registering realtime attendance event to API with user id 718. Error detail: AxiosError: Request failed with status code 500
+23-10-2023 10:53:59	 Theres an error in registering realtime attendance event to API with user id 718. Error detail: AxiosError: Request failed with status code 500
+23-10-2023 10:56:35	 Theres an error in registering realtime attendance event to API with user id 718. Error detail: AxiosError: Request failed with status code 500
+23-10-2023 10:59:48	 Success send data with user id 718 to API. Response from server : success
+23-10-2023 11:01:44	 Success send data with user id 718 to API. Response from server : success

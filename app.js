@@ -8,18 +8,18 @@ const { stringify } = require('querystring');
 const ip = process.env.DEVICE_IP;
 const api_url = process.env.APP_API;
 const path_log = "./log.txt";
-const now = dayjs().format('DD-MM-YYYY HH:mm:ss');
+const globalNow = dayjs().format('DD-MM-YYYY HH:mm:ss');
+const zkInstance = new ZKLib(ip, 4370, 10000, 4000, 0);
 
 const realtime_attendence = async () => {
-    const zkInstance = new ZKLib(ip, 4370, 10000, 4000, 0);
     let isConnected = false;
-
+    
     try {
         // create connection with the device
-        fs.appendFileSync(path_log, `${now}\t Trying to connect to DEVICE IP : ${ip}\n`);
+        fs.appendFileSync(path_log, `${globalNow}\t Trying to connect to DEVICE IP : ${ip}\n`);
         await zkInstance.createSocket()
-        fs.appendFileSync(path_log, `${now}\t Connection Established to DEVICE IP : ${ip}\n`);
-
+        fs.appendFileSync(path_log, `${globalNow}\t Connection Established to DEVICE IP : ${ip}\n`);
+        
         isConnected = true;
     } catch (e) {
         await axios.post(process.env.WAPI_URL, null, {
@@ -30,23 +30,26 @@ const realtime_attendence = async () => {
                 message: `Realtime Attendace Connection ERROR, Restarting .... \n\nError detail: ${stringify(e)}`
             }
         });
-
-        fs.appendFileSync(path_log, `${now}\t Connection ERROR, Restarting ...\n`);
+        
+        fs.appendFileSync(path_log, `${globalNow}\t Connection ERROR, Restarting ...\n`);
     }
 
     if(isConnected){
         zkInstance.getRealTimeLogs(async (err, attendance) => {
+            const now = dayjs().format('DD-MM-YYYY HH:mm:ss');
+            
             if (err) {
                 fs.appendFileSync(path_log, `${now}\t Error in registering real time event: ${err}\n`);
             }
-    
+            
             const value = {
                 'user_id': attendance.userId,
                 'scan': dayjs(attendance.attTime).format(),
             };
-    
+            
             try {
                 const response = await axios.post(api_url, value);
+                console.log(response.data);
                 fs.appendFileSync(path_log, `${now}\t Success send data with user id ${value.user_id} to API. Response from server : ${response.data}\n`);
             } catch (error) {
                 await axios.post(process.env.WAPI_URL, null, {
